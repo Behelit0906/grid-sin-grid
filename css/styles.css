@@ -25,6 +25,7 @@ body {
 .testimonial-container{
     margin-top: 48px;
     margin-left: 20px;
+    position: relative;
     
 }
 
@@ -32,7 +33,7 @@ body {
     margin-right: 24px;
     display: inline-block;
     border-radius: 16px;
-    
+    vertical-align: top;  
 }
 
 .height-400{
@@ -42,20 +43,33 @@ body {
 .first-testimonial-card{
     position: relative;
     width: 675px;
-    vertical-align: middle;
     background-color: hsl(263, 55%, 52%);
 }
 
 .second-testimonial-card{
-    width: 350px;
-    vertical-align: middle;
+    width: 350px;  
     background-color: hsl(217, 19%, 35%);
 }
 
 .third-testimonial-card{
     width: 300px;
-    vertical-align: top;
     background-color: #fff;
+}
+
+.fourth-testimonial-card{
+    position: absolute;
+    left: 0;
+    top: 425px;
+    width: 325px;
+    background-color: #fff;
+}
+
+.fifth-testimonial-card{
+    position: absolute;
+    left: 355px;
+    top: 425px;
+    width: 700px;
+    background-color: hsl(219, 29%, 14%);
 }
 
 .bg-pattern{
